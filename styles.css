@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.style1 {
+    color: blue;
+    font-size: 18px;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.style2 {
+    color: green;
+    font-size: 18px;
+    background-color: lightyellow;
+    padding: 10px;
+}
+
+.link1 {
+    color: red;
+    text-decoration: none;
+}
+
+.link2 {
+    color: purple;
+    text-decoration: none;
+}
+
+.example-image {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+ul {
+    list-style-type: disc;
+    margin: 20px 0;
+    padding: 0 20px;
+}
+
+.pricing-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.pricing-table th,
+.pricing-table td {
+    border: 1px solid hwb(0 0% 100%);
+    padding: 8px;
+    text-align: center;
+}
+
+.pricing-table th {
+    background-color: #23e6ab;
+    font-weight: bold;
+}
+
+.signup-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.signup-button:hover {
+    background-color: #45a049;
+}
